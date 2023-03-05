@@ -48,7 +48,7 @@ All of the installed APKs from user space are inside the /data/app folder. We ca
 We can also extract the file called <code>packages.xml</code> which contains all the installation paths for all the installed apps. It contains all the permissions for the installed apps, including system apps (pre-installed ones). This is the thing that we can’t usually access through UI. In most cases we do not see what permissions the system apps have. They may have some permissions that we don’t want them to have, for example, camera or audio record. 
 If we are curious we can view the user ids assigned to certain apps and we find out that system apps usually share the user id because they are run by a user called System.
 
-/data/system/job/<code>jobs.xml</code>
+### /data/system/job/<code>jobs.xml</code>
 - All background jobs (from system and user apps)
 - Package names
 - Constraints (idle / charging)
